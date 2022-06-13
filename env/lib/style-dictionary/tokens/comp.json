@@ -1,0 +1,214 @@
+{
+  "Checkbox": {
+    "Container": {
+      "backgroundColor": {
+        "selected": {
+          "default": {
+            "value": "{color.primary.50}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.primary.60}",
+            "type": "color"
+          },
+          "focused": {
+            "value": "{color.primary.60}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.neutral.30}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.error.50}",
+            "type": "color"
+          }
+        },
+        "unselected": {
+          "base": {
+            "value": "{color.base.00}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{Checkbox.Container.backgroundColor.unselected.base}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Checkbox.Container.backgroundColor.unselected.base}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{Checkbox.Container.backgroundColor.unselected.base}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.neutral.10}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{Checkbox.Container.backgroundColor.unselected.base}",
+            "type": "color"
+          }
+        }
+      },
+      "borderColor": {
+        "selected": {
+          "base": {
+            "value": "{color.base.00}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{Checkbox.Container.borderColor.selected.base}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Checkbox.Container.borderColor.selected.base}",
+            "type": "color"
+          },
+          "focused": {
+            "value": "{Checkbox.Container.borderColor.selected.base}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{Checkbox.Container.borderColor.selected.base}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{Checkbox.Container.borderColor.selected.base}",
+            "type": "color"
+          }
+        },
+        "unselected": {
+          "default": {
+            "value": "{color.neutral.30}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.neutral.40}",
+            "type": "color"
+          },
+          "focused": {
+            "value": "{color.primary.50}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.neutral.30}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{color.error.50}",
+            "type": "color"
+          }
+        }
+      },
+      "Mark": {
+        "backgroundColor": {
+          "selected": {
+            "base": {
+              "value": "{color.base.00}",
+              "type": "color"
+            },
+            "default": {
+              "value": "{Checkbox.Container.Mark.backgroundColor.selected.base}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{Checkbox.Container.Mark.backgroundColor.selected.base}",
+              "type": "color"
+            },
+            "focused": {
+              "value": "{Checkbox.Container.Mark.backgroundColor.selected.base}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.neutral.10}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{Checkbox.Container.Mark.backgroundColor.selected.base}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "marginVertical": {
+        "base": {
+          "value": "{spacing.4}",
+          "type": "spacing"
+        }
+      },
+      "glow": {
+        "focused": {
+          "value": "{glow.focus}",
+          "type": "boxShadow"
+        }
+      },
+      "borderRadius": {
+        "base": {
+          "value": "{borderRadius.2}",
+          "type": "borderRadius"
+        }
+      },
+      "borderWidth": {
+        "base": {
+          "value": "{borderWidth.1}",
+          "type": "borderWidth"
+        }
+      }
+    },
+    "Label": {
+      "color": {
+        "base": {
+          "value": "{color.neutral.90}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.neutral.30}",
+          "type": "color"
+        }
+      },
+      "font": {
+        "base": {
+          "value": "{font.body.regular.m}",
+          "type": "typography"
+        }
+      }
+    },
+    "HintText": {
+      "color": {
+        "base": {
+          "value": "{color.neutral.40}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.neutral.30}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{color.error.50}",
+          "type": "color"
+        }
+      },
+      "font": {
+        "base": {
+          "value": "{font.body.regular.s}",
+          "type": "typography"
+        }
+      }
+    },
+    "TextGroup": {
+      "itemSpacing": {
+        "base": {
+          "value": "{spacing.4}",
+          "type": "spacing"
+        }
+      }
+    },
+    "itemSpacing": {
+      "base": {
+        "value": "{spacing.8}",
+        "type": "spacing"
+      }
+    }
+  }
+}
